@@ -436,10 +436,10 @@ li {
         left: 0;
 
         width: 100vw;
-        height: 35vh;
+        height: 30vh;
 
         background-color: #fff;
-        border-bottom: 3px solid #ff9951;
+        border-bottom: 2px solid #ff9951;
 
         z-index: 10;
 
@@ -464,13 +464,13 @@ li {
     }
 
     .menu-section.on .menu-toggle .tres {
-        transform: rotate(-45deg) translate(5px, -6px);
+        transform: rotate(-45deg) translate(4px, -5px);
     }
 
     .menu-section.on .navbar-menu {
         display: block;
         text-align: center;
-        padding-top: 10rem;
+        padding-top: 5.5rem;
     }
 
     .menu-section.on .navbar-menu-item {
