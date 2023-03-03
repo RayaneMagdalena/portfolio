@@ -92,7 +92,7 @@ li {
     line-height: 3.5rem;
 
     padding-top: 1rem;
-}
+      }
 
 .apresentação-text span {
     color: #fd3c49;
@@ -140,7 +140,7 @@ li {
 
 /* HABILIDADES */
 .habilidades {
-    padding-top: 5rem;
+    padding: 5rem 0;
     background-color: #ffebdd;
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ li {
 
 .habilidades-icon {
     font-size: 4rem;
-    padding-top: 8rem;
+    padding-top: 11rem;
     padding-bottom: 2rem;
     display: flex;
     justify-content: space-between;
@@ -285,6 +285,74 @@ li {
 .demo:hover {
     background-color: #f7944e;
 }
+
+/* ANIMAÇÃO */
+/* .cards {
+    animation: aparecer;
+    animation-duration: 3s;
+}
+
+@keyframes aparecer {
+    from{
+opacity: 0;
+    }
+    to{
+opacity: 1;
+    }
+}
+
+.habilidades-text {
+    animation: movleft;
+    animation-duration: 2s;
+}
+@keyframes movleft{
+    from{
+        opacity: 0;
+transform: translateX(-3%);
+    }
+    to{
+        opacity: 1;
+transform: translateX(0);
+    }
+}
+
+.habilidades-img {
+    animation: movright;
+    animation-duration: 2s;
+}
+@keyframes movright{
+    from{
+        opacity: 0;
+transform: translateX(3%);
+    }
+    to{
+        opacity: 1;
+transform: translateX(0);
+    }
+} */
+
+[data-anime] {
+    opacity: 0;
+    transition: 2s;
+}
+
+[data-anime="left"] {
+   transform: translateX(-5%);
+}
+
+[data-anime="right"] {
+    transform: translateX(5%);
+ }
+
+ [data-anime="top"] {
+    transform: translateY(-9%);
+ }
+
+ [data-anime].animate {
+    opacity: 1;
+    transform: translateX(0);
+ }
+
 
 
 /* MEDIA QUERIES */
@@ -466,6 +534,8 @@ li {
         max-width: 40rem;
     }
 }
+
+
 
 
 
