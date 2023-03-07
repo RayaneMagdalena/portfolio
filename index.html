@@ -17,25 +17,24 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/preloader.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/mediaqueries.css">
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/d04b099c40.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-         <!-- início do preloader -->
-  <div id="preloader">
-    <div class="inner">
-       <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
-       <div class="bolas">
-          <div></div>
-          <div></div>
-          <div></div>                    
-       </div>
-    </div>
-</div>
-<!-- fim do preloader --> 
-
-
-
+        <!-- PRELOADER -->
+        <div id="preloader">
+            <div class="inner">
+                <div class="bolas">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
 
         <!-- BARRA DE NAVEGAÇÃO -->
         <nav class="navbar">
@@ -71,16 +70,17 @@
                 <h1>Olá,</h1>
                 <p class="maquina">Me chamo <span>Rayane Magdalena</span><br> e sou desenvolvedora Front-end.</p>
             </div>
+            
             <img src="./assets/header1.jpg" alt="" class="apresentação-img">
         </section>
     </header>
 
     <main>
         <!-- SOBRE MIM -->
-        <section id="s-sobre" class="sobre-mim">
-            <img src="./assets/sobremimart.jpg" alt="" class="sobre-mim-img" data-anime="top">
+        <section id="s-sobre" class="sobre-mim" data-anime="top">
+            <img src="./assets/sobremimart.jpg" alt="" class="sobre-mim-img">
 
-            <div class="sobre-mim-text" data-anime="top">
+            <div class="sobre-mim-text">
                 <h2>Sobre mim</h2>
                 <p> Atualmente estudo Análise e Desenvolvimento de Sistemas e estou participando de um Bootcamp de
                     Desenvolvedor Web, onde foquei meus estudos em Front-end - HTML I CSS I JavaScript. Já posso
@@ -95,8 +95,8 @@
                     problemas.</p>
 
                 <div class="sobre-mim-icon">
-                    <a class="sobre-mim-item" href="" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a class="sobre-mim-item" href="" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a class="sobre-mim-item" href="https://www.linkedin.com/in/rayane-magdalena-473b83163/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="sobre-mim-item" href="https://www.instagram.com/rayanemagdalena/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
                     <a class="sobre-mim-item" href="https://github.com/RayaneMagdalena" target="_blank"><ion-icon
                             name="logo-github"></ion-icon></a>
                 </div>
@@ -118,7 +118,7 @@
                     <ion-icon class="habilidades-item" name="logo-html5"></ion-icon>
                     <ion-icon class="habilidades-item" name="logo-css3"></ion-icon>
                     <ion-icon class="habilidades-item" name="logo-javascript"></ion-icon>
-                    <ion-icon class="habilidades-item" name="git-branch-outline"></ion-icon>
+                    <i class="fa-brands fa-git-alt habilidades-item"></i>
                     <ion-icon class="habilidades-item" name="logo-github"></ion-icon>
                     <ion-icon class="habilidades-item" name="logo-figma"></ion-icon>
                 </div>
@@ -134,9 +134,7 @@
                 <a target="_blank" href="https://github.com/RayaneMagdalena">Ver mais</a>
             </div>
 
-
             <section class="cards" data-anime="surgir">
-
                 <div class="card">
                     <div class="card-image">
                         <img src="./assets/cardform.jpg" />
@@ -181,14 +179,58 @@
             </section>
         </section>
 
-        <section id="s-contato" class="contato">
+        <!-- CONTATO -->
+        <section id="s-contato" class="contato"  data-anime="top">
+            <div class= "contato-content">
+                <div class= "contato-text">
+                    <h2>Me mande uma mensagem!</h2>
+                    <p>Estou sempre aberta ao diálogo e a novas conexões. Posso te ajudar de alguma
+                        forma?
+                        Sinta-se à vontade para entrar em contato comigo por e-mail ou através das minhas
+                        redes
+                        sociais:</p>
+                </div>
 
+                <div class="contato-icons">
+                    <a href="https://github.com/RayaneMagdalena" class="contato-icons-item" target="_blank"><ion-icon
+                            name="logo-github"></ion-icon></a>
+
+                    <a href="https://www.linkedin.com/in/rayane-magdalena-473b83163/" class="contato-icons-item"
+                        target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+
+                    <a href="mailto:rayanemagdalena@gmail.com" class="contato-icons-item" target="_blank"><ion-icon
+                            name="mail-outline"></ion-icon></a>
+                </div>
+            </div>
+
+            <img src="./assets/contatomsg.png" alt="" class="contato-img">
         </section>
-
-
     </main>
-    <footer>
 
+    <footer>
+        <section class="footer">
+            <div>
+                <ul class="footer-menu">
+                    <li>
+                        <a href="#s-sobre" class="footer-menu-item">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#s-habilidades" class="footer-menu-item">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#s-projeto" class="footer-menu-item">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#s-contato" class="footer-menu-item">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <p>ASSINATURA</p>
+                <p>© 2023, Portfólio I Rayane Magdalena. Todos os direitos reservados.</p>
+            </div>
+        </section>
     </footer>
 
 
