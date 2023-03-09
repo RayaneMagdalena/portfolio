@@ -16,7 +16,7 @@
 Lading Page criada com o objetivo de reunir meus projetos em desenvolvimento/finalizados em um só lugar. A página é dividida em seções - sobre mim, habilidades, projetos e contato - funcionando assim como um cartão de visita.
 Além de ter permitido que eu colocasse em prática o que foi assimilado nesses meses de estudo.
 
-- [Acesse o projeto finalizado, online.](https://rayanemagdalena.github.io/portfolio/)
+- [Veja como está ficando o projeto online.](https://rayanemagdalena.github.io/portfolio/)
 
 ---
 
