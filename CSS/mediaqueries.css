@@ -5,7 +5,6 @@
     }
 }
 
-
 @media (max-width: 890px) {
     .sobre-mim-img {
         max-width: 50rem;
@@ -16,7 +15,6 @@
     }
 }
 
-
 @media (max-width: 768px) {
     html {
         font-size: 40%;
@@ -26,7 +24,6 @@
         max-width: 60rem;
     }
 }
-
 
 /* DIRECTION - COLUMN */
 @media (max-width: 615px) {

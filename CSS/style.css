@@ -272,6 +272,7 @@ li {
     color: #3d258d;
     font-size: 1.6rem;
     line-height: 2.6rem;
+    padding-bottom: 1.5rem;
 }
 
 .titulo {
@@ -279,13 +280,21 @@ li {
 }
 
 .relogio {
-    padding-bottom:2.6rem ;
+    padding-bottom:3.7rem ;
 }
 
 .info {
     display: flex;
     align-self: end;
-    align-items: center;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
 }
 
 .demo {
@@ -301,6 +310,22 @@ li {
 .demo:hover {
     background-color: #f7944e;
 }
+
+.github {
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: .15rem;
+
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.github:hover {
+    color: #f7944e;
+}
+
+
 
 /* CONTATO */
 .contato {
