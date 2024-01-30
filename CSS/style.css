@@ -173,6 +173,11 @@ li {
     color: #f1587a;
 }
 
+.link {
+    color: #f24a5b;
+    text-decoration: none;
+}
+
 .habilidades-icon {
     font-size: 4rem;
 
